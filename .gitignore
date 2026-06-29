@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets / local env
+.env
+*.local
+
+# Node / frontend
+node_modules/
+dist/
+
+# Editor / tooling
+.playwright-mcp/
+.DS_Store
+
+# Stray screenshots / scratch
+term*.png
+vscode*.png
